@@ -1,0 +1,41 @@
+#menu ul{
+list-style-type: none;
+overflow: hidden;
+	float: right;
+
+
+}
+#menu ul li{
+	display: inline;
+
+}
+#menu ul li a{
+text-decoration: none;
+	float: left;
+	padding: 10px;
+	font-size: 1.5em;
+	margin-left: 0;
+	margin-right: 15px;
+	color: black;
+}
+
+body{
+	background: black;
+	color: white;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	color: black;
+	height: 86px;
+}
+header{
+	height: 90px;
+}
+#portada img{
+	margin: 0;
+	width: 100%;
+}
